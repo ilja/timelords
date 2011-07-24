@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Start:</b>
+  <%= @time_entry.start %>
+</p>
+
+<p>
+  <b>End:</b>
+  <%= @time_entry.end %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @time_entry.project %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_time_entry_path(@project, @time_entry) %> |
+<%= link_to 'Back', project_time_entries_path(@project) %>

@@ -64,6 +64,9 @@ GEM
       thor (~> 0.14.6)
     guard-rspec (0.4.0)
       guard (>= 0.4.0)
+    guard-spork (0.2.1)
+      guard (>= 0.2.2)
+      spork (>= 0.8.4)
     hike (1.2.0)
     i18n (0.6.0)
     jquery-rails (1.0.12)
@@ -132,6 +135,7 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
+    spork (0.8.5)
     sprockets (2.0.0.beta.10)
       hike (~> 1.0)
       rack (~> 1.0)
@@ -161,6 +165,7 @@ DEPENDENCIES
   devise
   factory_girl_rails
   guard-rspec
+  guard-spork
   jquery-rails
   libnotify
   rails (= 3.1.0.rc4)
